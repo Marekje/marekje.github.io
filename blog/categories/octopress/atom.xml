@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-07-18T08:49:43+02:00</updated>
+  <updated>2014-07-18T08:50:32+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -50,7 +50,7 @@
 </ul>
 
 
-<p>Modifying/Customizing your blog:</p>
+<h2>Modifying/Customizing your blog:</h2>
 
 <ul>
 <li><a href="http://octopress.org/docs/theme/template/">Theming &amp; Customization</a></li>
