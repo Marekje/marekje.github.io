@@ -4,7 +4,7 @@
   <title><![CDATA[CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-07-18T08:44:06+02:00</updated>
+  <updated>2014-07-18T08:45:16+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -42,9 +42,13 @@
 </ul>
 
 
-<p>And then, to <code>push</code> a new blog post, or any changes I guess :
-&ndash; <code>rake generate</code>
-&ndash; <code>rake deploy</code></p>
+<p>And then, to <code>push</code> a new blog post, or any changes I guess :</p>
+
+<ul>
+<li><code>rake generate</code></li>
+<li><code>rake deploy</code></li>
+</ul>
+
 ]]></content>
   </entry>
   
