@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[CSS &amp; Projects]]></title>
-  <link href="http://Marekje.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
   <updated>2014-07-18T08:41:58+02:00</updated>
   <id>http://Marekje.github.io/</id>
