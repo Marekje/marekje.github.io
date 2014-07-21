@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[CSS &amp; Projects]]></title>
-  <link href="http://Marekje.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Scrum, | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/scrum/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
   <updated>2014-07-21T09:26:39+02:00</updated>
   <id>http://Marekje.github.io/</id>
@@ -37,55 +37,6 @@ Second, you predict how much time each story is gonna take, and write it on the 
 
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Burn_down_chart.png" title="a chart : left axis is sum-of-task-estimates, bottom axis is iteration-timeline. the line goes from top left to right bottom" alt="A Burndown chart" />
 For easy comparing, Scrum recommends <a href="https://en.wikipedia.org/wiki/Burn_down_chart">Burndown Charts</a>> drawing this chart everyday helps you see the ideal sprint (blue) and your sprint (red).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How I Made This Website]]></title>
-    <link href="http://Marekje.github.io/blog/2014/07/18/how-i-made-this-website/"/>
-    <updated>2014-07-18T08:24:15+02:00</updated>
-    <id>http://Marekje.github.io/blog/2014/07/18/how-i-made-this-website</id>
-    <content type="html"><![CDATA[<p>It took me a while to be able to make this blog happen.</p>
-
-<p>First, I did it with wordpress, and it worked like a charm, but wordpress&rsquo;s clumsy and huge and hardly modifiable. So I wanted to change.</p>
-
-<p>Through <a href="http://oozled.com/resources/cms">oozled.com</a>, I found jekyll, whose <em>&ldquo;static website&rdquo;</em> appealed to me because it meant something simple without a database. I&rsquo;m no developer&hellip;</p>
-
-<p>But I couldn&rsquo;t install Jekyll, thanks to a missing gem and some other stuff. But Octopress, a blog engine based on Jekyll, worked! 10 minutes and I was all set up.</p>
-
-<h2>How I did it:</h2>
-
-<p>First, create your <code>username.github.io</code> repository in github.
-&ndash; Second, follow that :
-<a href="http://octopress.org/docs/setup/">octopress: setup</a></p>
-
-<ul>
-<li><p>Third, follow that :
-<a href="http://octopress.org/docs/deploying/github/">octopress: deploying to github pages</a></p></li>
-<li><p>Fourth :
-<a href="http://octopress.org/docs/configuring/">octopress: configuration</a>(almost nothing to do here!)</p></li>
-<li><p>and last :
-<a href="http://octopress.org/docs/blogging/">octopress: blogging basics</a>, which will help you make a blog post.</p></li>
-</ul>
-
-
-<p>And then, to <code>push</code> a new blog post, or any changes I guess :</p>
-
-<ul>
-<li><code>rake generate</code></li>
-<li><code>rake deploy</code></li>
-</ul>
-
-
-<h2>Modifying/Customizing your blog:</h2>
-
-<ul>
-<li><a href="http://octopress.org/docs/theme/template/">Theming &amp; Customization</a></li>
-<li><a href="http://octopress.org/docs/theme/styles/">CSS Styles</a></li>
-</ul>
-
-
-<p>I think that&rsquo;s all I/you need :&ndash;)</p>
 ]]></content>
   </entry>
   

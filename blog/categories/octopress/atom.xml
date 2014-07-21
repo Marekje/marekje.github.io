@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-07-18T08:50:32+02:00</updated>
+  <updated>2014-07-21T09:26:39+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -20,7 +20,7 @@
     <id>http://Marekje.github.io/blog/2014/07/18/how-i-made-this-website</id>
     <content type="html"><![CDATA[<p>It took me a while to be able to make this blog happen.</p>
 
-<p>First, I did it with wordpres, and it worked like a charm, but wordpress&rsquo;s clumsy and huge and hardly modifiable. So I wanted to change.</p>
+<p>First, I did it with wordpress, and it worked like a charm, but wordpress&rsquo;s clumsy and huge and hardly modifiable. So I wanted to change.</p>
 
 <p>Through <a href="http://oozled.com/resources/cms">oozled.com</a>, I found jekyll, whose <em>&ldquo;static website&rdquo;</em> appealed to me because it meant something simple without a database. I&rsquo;m no developer&hellip;</p>
 
