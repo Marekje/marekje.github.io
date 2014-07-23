@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Velocity | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/velocity/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-07-21T09:30:16+02:00</updated>
+  <updated>2014-07-23T12:19:51+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -25,7 +25,7 @@ Second, you predict how much time each story is gonna take, and write it on the 
 
 <p><img src="../images/scrum_velocity.jpg" title="A Trello Card with velocity as a simple number between brackets" alt="A Trello Card with velocity" /></p>
 
-<p>I personally use [0] for 20 minutes, and then [1] to [5], respectively 1 to 5 hours <em>(or more than five, but you should break user-stories that take more than 2 hours anyway)</em>.</p>
+<p>I personally use <code>[0]</code> for 20 minutes, and then <code>[1]</code> to <code>[5]</code>, respectively 1 to 5 hours <em>(or more than five, but you should break user-stories that take more than 2 hours anyway)</em>.</p>
 
 <p>Once you&rsquo;ve done that for each Card in the product backlog, you take as any Cards as you can, given your available man-hours.</p>
 
@@ -36,7 +36,18 @@ Second, you predict how much time each story is gonna take, and write it on the 
 <h2>Burndown Charts</h2>
 
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Burn_down_chart.png" title="a chart : left axis is sum-of-task-estimates, bottom axis is iteration-timeline. the line goes from top left to right bottom" alt="A Burndown chart" />
-For easy comparing, Scrum recommends <a href="https://en.wikipedia.org/wiki/Burn_down_chart">Burndown Charts</a>> drawing this chart everyday helps you see the ideal sprint (blue) and your sprint (red).</p>
+For easy comparing, Scrum recommends <a href="https://en.wikipedia.org/wiki/Burn_down_chart">Burndown Charts</a> drawing this chart everyday helps you see the ideal sprint (blue) and your sprint (red).</p>
+
+<h2>Wikipedia&rsquo;s links :</h2>
+
+<ul>
+<li><p><a href="http://idiacomputing.com/pub/BetterSoftware-BurnCharts.pdf">A good .pdf about burndown charts</a></p>
+
+<blockquote><p>&ldquo;suppose I start work on time but then go for coffee while waiting for my computer to boot up&rdquo;</p></blockquote></li>
+<li><p><a href="http://www.mountaingoatsoftware.com/agile/scrum/release-burndown">Mountain Goat Software</a>\&rsquo;s explanation.</p></li>
+<li><p><a href="http://joel.inpointform.net/software-development/burn-down-charts-tutorial-simple-agile-project-tracking/">A good explanation</a></p></li>
+</ul>
+
 ]]></content>
   </entry>
   
