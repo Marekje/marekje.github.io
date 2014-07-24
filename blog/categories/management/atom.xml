@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Management | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/management/atom.xml" rel="self"/>
+  <link href="http://Marekje.github.io/"/>
+  <updated>2014-07-24T09:02:16+02:00</updated>
+  <id>http://Marekje.github.io/</id>
+  <author>
+    <name><![CDATA[Marekje]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scrum Workflows : Development and Testing]]></title>
+    <link href="http://Marekje.github.io/blog/2014/07/24/scrum-workflows-development-and-testing/"/>
+    <updated>2014-07-24T08:47:37+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/07/24/scrum-workflows-development-and-testing</id>
+    <content type="html"><![CDATA[<p>At work, we use <em>Scrum</em>. An agile methodologie where you make one-week increments to your project. Each increment is build with enough <em>user-stories</em> to fill a week of development (look for <a href="">velocity</a> in this very blog).</p>
+
+<p>Developers are obviously important in this process, as they build the project. While important, you could reduce their project management part to two workflows.</p>
+
+<p>The main one is the <strong>Development workflow</strong> :</p>
+
+<h3>Development workflow :</h3>
+
+<p>The developer looks for the next Card he has to do in the Sprint Backlog. He puts the card in <code>Implementation</code>, and work on it.
+Once finished, he pushes the card in <code>Implementation done</code> (A tester is going to take it, but it does not really matter for the developer).</p>
+
+<p>The second worflow is not meant only for developers, but rather for everyone on board :</p>
+
+<h3><em>“I got an idea”</em> workflow</h3>
+
+<p>When someone has an idea, he writes it down in the <em>Product Backlog</em>. If possible, he should write it as a user-story, telling the story of someone achieving an action using the project.</p>
+
+<blockquote><p>As a user, I want to rank lists according to their importance because it will help me prioritize them for the next iteration.
+<em>A user-story, from the viewpoint of a user</em></p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
