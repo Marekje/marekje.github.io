@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Workflow | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/workflow/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-05T13:52:25+02:00</updated>
+  <updated>2014-08-05T13:55:06+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -59,11 +59,13 @@ Et je l'écris ici pour ne pas l'oublier !</p>
 
 <p>J'utilise Trello, qui permet de faire ça facilement :</p>
 
-<p><em>La Card assignée au Designer :</em>
-<img src="../images/designercard_before.jpg%20une%20Card%20Trello%20avant%20que%20le%20designer%20n'y%20ajoute%20sa%20patte" title="" alt="une Card Trello avant que le designer n'y ajoute sa patte" /></p>
+<p><em>La Card assignée au Designer :</em></p>
 
-<p><em>La Card une fois le designer passé : (notez le changement de [design] à [dev])</em>
-<img src="../images/designercard_after.jpg%20une%20Card%20Trello%20apr%C3%A8s%20le%20passage%20du%20designer" title="" alt="une Card Trello après le passage du designer" /></p>
+<p><img src="../images/designercard_before.jpg" alt="une Card Trello avant que le designer n'y ajoute sa patte" /></p>
+
+<p><em>La Card une fois le designer passé : (notez le changement de [design] à [dev])</em></p>
+
+<p><img src="../images/designercard_after.jpg" alt="une Card Trello après le passage du designer" /></p>
 ]]></content>
   </entry>
   
