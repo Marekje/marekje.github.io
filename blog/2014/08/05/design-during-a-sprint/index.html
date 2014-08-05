@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Design Pendant Un Sprint - CSS &amp; Projects</title>
+  <meta name="author" content="Marekje">
+
+  
+  <meta name="description" content="Je me demandais comment gérer le design manquant durant un Sprint. les modifications dues au développement, aux nouvelles idées, aux problèmes &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://Marekje.github.io/blog/2014/08/05/design-during-a-sprint">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="CSS &amp; Projects" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">CSS &amp; Projects</a></h1>
+  
+    <h2>sharing my ginormous knowledge</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:Marekje.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <!--li><a href="/pages/contact.html">Me</a></li-->
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Design Pendant Un Sprint</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-05T13:26:07+02:00" pubdate data-updated="true">Aug 5<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Je me demandais comment gérer le design manquant durant un Sprint. les modifications dues au développement, aux nouvelles idées, aux problèmes techniques.. font que le design d&#8217;un projet change au fur et à mesure du temps.
+J&#8217;ai donc eu besoin de trouver et développer une méthode pour intégrer le design dans un sprint normal, et le faire évoluer au même rythme que le développement, par itérations successives.
+Et je l&#8217;écris ici pour ne pas l&#8217;oublier !</p>
+
+<h2>2 étapes</h2>
+
+<p><strong>Avant le début du développement</strong>, il faut :
+&ndash; Une “Charte graphique”, document qui contient les couleurs et leur usage (background, texte, titres, alertes, légendes…), les polices de paragraphe, titre, lien… , les textures, le rendu attendu en fonction des endroits (menus, articles, widgets…).
+Chaque exemple comprend un graphisme, une explication de l’objectif du graphisme et des endroits auquels il est attendu , ansi que le CSS nécessaire (grâce à une mixin SCSS/LESS si possible)
+&ndash; Une “Charte des Interactions”, qui décrit les principales possibilités d’action des utilisateurs lors de l’utilisation de ce projet, étape par étape.
+Chaque exemple comprend un workflow de l’interaction et ses transitions, une explication du résultat attendu par l’utilisateur et le code basique nécessaire pour faire fonctionner l’interaction si possible.
+&ndash; Une “Charte Technique” décrivant les langages, librairies et technologies front-end &amp; back-end utilisées.</p>
+
+<p>**Pendant le sprint, on commence par un Sprint Planning Meeting qui décrit les tâches à réaliser par l&#8217;équipe. C&#8217;est durant cette phase que tout se joue.
+&ndash; Les tâches qui ont besoin d&#8217;un redesign ou d&#8217;une description plus complête vont être assignées au designer, qui va créer un document explicatif rapide pour chacune, l&#8217;ajouter sur la tâche, puis les assignera aux développeurs par la suite.
+&ndash; Le designer va regarder les autres tâches, et y noter les documents de design utiles pour la réalisation de la tâche.</p>
+
+<p>De cette manière, un développeur pourra se référer uniquement au descriptif de la tâche pour réaliser son travail !</p>
+
+<h2>Qu&#8217;est-ce que ça donne concrètement ?</h2>
+
+<p>J&#8217;utilise Trello, qui permet de faire ça facilement :</p>
+
+<p><img src="../images/designercard_before.jpg%20une%20Card%20Trello%20avant%20que%20le%20designer%20n'y%20ajoute%20sa%20patte" title="" alt="une Card Trello avant que le designer n'y ajoute sa patte" />
+<img src="../images/designercard_after.jpg%20une%20Card%20Trello%20apr%C3%A8s%20le%20passage%20du%20designer" title="" alt="une Card Trello après le passage du designer" /></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Marekje</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-05T13:26:07+02:00" pubdate data-updated="true">Aug 5<sup>th</sup>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/design/'>design,</a>, <a class='category' href='/blog/categories/management/'>management,</a>, <a class='category' href='/blog/categories/project/'>project</a>, <a class='category' href='/blog/categories/scrum/'>scrum,</a>, <a class='category' href='/blog/categories/sprint/'>sprint,</a>, <a class='category' href='/blog/categories/trello/'>trello,</a>, <a class='category' href='/blog/categories/workflow/'>workflow</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://Marekje.github.io/blog/2014/08/05/design-during-a-sprint/" data-via="" data-counturl="http://Marekje.github.io/blog/2014/08/05/design-during-a-sprint/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/07/24/scrum-workflows-development-and-testing/" title="Previous Post: Scrum workflows : Development and Testing">&laquo; Scrum workflows : Development and Testing</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/08/05/design-during-a-sprint/">Design Pendant Un Sprint</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/24/scrum-workflows-development-and-testing/">Scrum Workflows : Development and Testing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/23/most-used-hanzis/">Efficient Language Learning</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/21/velocity/">Velocity in Scrum</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/18/how-i-made-this-website/">How I Made This Website</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Marekje -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
