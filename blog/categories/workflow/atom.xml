@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Workflow | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/workflow/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-05T13:49:36+02:00</updated>
+  <updated>2014-08-05T13:52:25+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -24,16 +24,34 @@ Et je l'écris ici pour ne pas l'oublier !</p>
 
 <h2>2 étapes</h2>
 
-<p><strong>Avant le début du développement</strong>, il faut :
-&ndash; Une “Charte graphique”, document qui contient les couleurs et leur usage (background, texte, titres, alertes, légendes…), les polices de paragraphe, titre, lien… , les textures, le rendu attendu en fonction des endroits (menus, articles, widgets…).
-Chaque exemple comprend un graphisme, une explication de l’objectif du graphisme et des endroits auquels il est attendu , ansi que le CSS nécessaire (grâce à une mixin SCSS/LESS si possible)
-&ndash; Une “Charte des Interactions”, qui décrit les principales possibilités d’action des utilisateurs lors de l’utilisation de ce projet, étape par étape.
-Chaque exemple comprend un workflow de l’interaction et ses transitions, une explication du résultat attendu par l’utilisateur et le code basique nécessaire pour faire fonctionner l’interaction si possible.
-&ndash; Une “Charte Technique” décrivant les langages, librairies et technologies front-end &amp; back-end utilisées.</p>
+<p><strong>Avant le début du développement</strong>, il faut :</p>
 
-<p>**Pendant le sprint, on commence par un Sprint Planning Meeting qui décrit les tâches à réaliser par l'équipe. C'est durant cette phase que tout se joue.
-&ndash; Les tâches qui ont besoin d'un redesign ou d'une description plus complête vont être assignées au designer, qui va créer un document explicatif rapide pour chacune, l'ajouter sur la tâche, puis les assignera aux développeurs par la suite.
-&ndash; Le designer va regarder les autres tâches, et y noter les documents de design utiles pour la réalisation de la tâche.</p>
+<ul>
+<li>Une “Charte graphique”, document qui contient les couleurs et leur usage (background, texte, titres, alertes, légendes…), les polices de paragraphe, titre, lien… , les textures, le rendu attendu en fonction des endroits (menus, articles, widgets…).</li>
+</ul>
+
+
+<p>Chaque exemple comprend un graphisme, une explication de l’objectif du graphisme et des endroits auquels il est attendu , ansi que le CSS nécessaire (grâce à une mixin SCSS/LESS si possible)</p>
+
+<ul>
+<li>Une “Charte des Interactions”, qui décrit les principales possibilités d’action des utilisateurs lors de l’utilisation de ce projet, étape par étape.</li>
+</ul>
+
+
+<p>Chaque exemple comprend un workflow de l’interaction et ses transitions, une explication du résultat attendu par l’utilisateur et le code basique nécessaire pour faire fonctionner l’interaction si possible.</p>
+
+<ul>
+<li>Une “Charte Technique” décrivant les langages, librairies et technologies front-end &amp; back-end utilisées.</li>
+</ul>
+
+
+<p><strong>Pendant le sprint</strong>, on commence par un Sprint Planning Meeting qui décrit les tâches à réaliser par l'équipe. C'est durant cette phase que tout se joue.</p>
+
+<ul>
+<li><p>Les tâches qui ont besoin d'un redesign ou d'une description plus complête vont être assignées au designer, qui va créer un document explicatif rapide pour chacune, l'ajouter sur la tâche, puis les assignera aux développeurs par la suite.</p></li>
+<li><p>Le designer va regarder les autres tâches, et y noter les documents de design utiles pour la réalisation de la tâche.</p></li>
+</ul>
+
 
 <p>De cette manière, un développeur pourra se référer uniquement au descriptif de la tâche pour réaliser son travail !</p>
 
@@ -41,7 +59,10 @@ Chaque exemple comprend un workflow de l’interaction et ses transitions, une e
 
 <p>J'utilise Trello, qui permet de faire ça facilement :</p>
 
-<p><img src="../images/designercard_before.jpg%20une%20Card%20Trello%20avant%20que%20le%20designer%20n'y%20ajoute%20sa%20patte" title="" alt="une Card Trello avant que le designer n'y ajoute sa patte" />
+<p><em>La Card assignée au Designer :</em>
+<img src="../images/designercard_before.jpg%20une%20Card%20Trello%20avant%20que%20le%20designer%20n'y%20ajoute%20sa%20patte" title="" alt="une Card Trello avant que le designer n'y ajoute sa patte" /></p>
+
+<p><em>La Card une fois le designer passé : (notez le changement de [design] à [dev])</em>
 <img src="../images/designercard_after.jpg%20une%20Card%20Trello%20apr%C3%A8s%20le%20passage%20du%20designer" title="" alt="une Card Trello après le passage du designer" /></p>
 ]]></content>
   </entry>
