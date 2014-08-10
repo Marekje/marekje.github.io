@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Language | CSS &amp; Projects]]></title>
-  <link href="http://Marekje.github.io/blog/categories/language/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Sizing, | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/sizing/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
   <updated>2014-08-10T13:52:44+02:00</updated>
   <id>http://Marekje.github.io/</id>
@@ -33,33 +33,6 @@
 
 
 <p>Look at the three first lines of CSS : That&rsquo;s all you need, <strong>the whole card changes according to that setting !</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Efficient Language Learning]]></title>
-    <link href="http://Marekje.github.io/blog/2014/07/23/most-used-hanzis/"/>
-    <updated>2014-07-23T12:10:14+02:00</updated>
-    <id>http://Marekje.github.io/blog/2014/07/23/most-used-hanzis</id>
-    <content type="html"><![CDATA[<p><em>I&rsquo;m lazy.</em></p>
-
-<p>Someone said <a href="http://blogoscoped.com/archive/2005-08-24-n14.html"><em>&ldquo;Good developers are lazy&rdquo;</em></a>. I think it could be applied to language learning.</p>
-
-<p>I&rsquo;m learning chinese. Which is one of the worst languages to pick if you&rsquo;re not chinese. <strong>2200 hours</strong> of learning, when italian or english would require 600 hours !</p>
-
-<p>So, in order to read texts in Chinese without learning all the characters (汉字 － <em>hanzi</em> ： character), I wanted to know which characters appeared the most in a given text, learn them and <strong>get most of the text for a minimal amount of work.</strong></p>
-
-<p>I thus decided to develop this small script (which has the side effect of improving my feeble JS skills) :</p>
-
-<p data-height="268" data-theme-id="2183" data-slug-hash="xDLlK" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/xDLlK/'>Get the most used characters in a text</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-
-<script async src="//codepen.io/assets/embed/ei.js"></script>
-
-
-<p>How-to : Change the text in the <code>id="text"</code>, in the HTML tab, , and automagically see which characters occurs most often.</p>
-
-<p>It was fun to do ! Now I need to use my design skills and make that more user-friendly :&ndash;)</p>
 ]]></content>
   </entry>
   

@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://Marekje.github.io/blog/2014/08/10/easy-card-sizing-for-different-uses/</loc>
+    <lastmod>2014-08-10T13:46:35+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://Marekje.github.io/blog/2014/08/05/design-during-a-sprint/</loc>
     <lastmod>2014-08-05T13:26:07+02:00</lastmod>
     <priority>0.8</priority>
@@ -35,21 +41,21 @@
   
   <url>
     <loc>http://Marekje.github.io/pages/contact.html</loc>
-    <lastmod>2014-08-05T13:57:32+02:00</lastmod>
+    <lastmod>2014-08-10T13:52:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://Marekje.github.io/blog/archives/</loc>
-    <lastmod>2014-08-05T13:57:32+02:00</lastmod>
+    <lastmod>2014-08-10T13:52:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://Marekje.github.io/</loc>
-    <lastmod>2014-08-05T13:57:32+02:00</lastmod>
+    <lastmod>2014-08-10T13:52:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

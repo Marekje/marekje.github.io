@@ -4,7 +4,7 @@
   <title><![CDATA[CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-05T13:57:32+02:00</updated>
+  <updated>2014-08-10T13:52:44+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Easy Card Sizing for Different Uses]]></title>
+    <link href="http://Marekje.github.io/blog/2014/08/10/easy-card-sizing-for-different-uses/"/>
+    <updated>2014-08-10T13:46:35+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/08/10/easy-card-sizing-for-different-uses</id>
+    <content type="html"><![CDATA[<p>When they learn a language by themselves, most people use paper or cardboard cards for easy vocabulary learning. They go through them as often as possible, trying to find systems to see them nore often when they don;t know it, and less often when it&rsquo;s in their long-term memory.</p>
+
+<p>Today, computer softwares like Anki or Memrise do it for you, using Spaced Repetition System (look it up).</p>
+
+<p>But that&rsquo;s not today&rsquo;s point. Sometimes you want to see cards one by one so you can learn them from your phone in a moving subway, other times all of them on your huge desktop screen to sort through them.</p>
+
+<p>So I needed a way to easily change the cards size without much code :</p>
+
+<p data-height="268" data-theme-id="2183" data-slug-hash="GLidk" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/GLidk/'>Cards & Sizes</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+
+<p>Look at the three first lines of CSS : That&rsquo;s all you need, <strong>the whole card changes according to that setting !</strong></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Design Pendant Un Sprint]]></title>
