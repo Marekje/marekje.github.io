@@ -4,7 +4,7 @@
   <title><![CDATA[CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-15T13:30:19+02:00</updated>
+  <updated>2014-08-16T12:56:59+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On Web Typography : Excerpts]]></title>
+    <link href="http://Marekje.github.io/blog/2014/08/16/on-web-typography-excerpts/"/>
+    <updated>2014-08-16T11:19:00+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/08/16/on-web-typography-excerpts</id>
+    <content type="html"><![CDATA[<p>Jason Santa Maria wrote a book called <a href="http://www.abookapart.com/products/on-web-typography"><em>On Web Typography</em></a>. I&rsquo;m reading it and adding here the stuff I want to remember.</p>
+
+<h3>The CSS <em>em</em></h3>
+
+<blockquote><p>“The em is the available height of each character’s canvas” (page 28)</p></blockquote>
+
+<p>Okay, how does <code>line-height: 1em</code> looks like then ?</p>
+
+<div data-height="268" data-theme-id="2183" data-slug-hash="ltEcJ" data-default-tab="result" class='codepen'><pre><code>body {
+  background-color: #eee;
+}
+p {
+  font-family: Verdana, sans-serif;
+  font-size: 3rem; //set the &#39;em&#39; default
+  max-width: 10em; //I make sure I have at least two lines
+  line-height: 1em;
+}
+span {
+  background-color: rgba(0, 0, 0, 0.3);
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}</code></pre>
+<p>See the Pen <a href='http://codepen.io/Marekje/pen/ltEcJ/'>What is a 1em line-height ?</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+
+<p>So, <code>line-height: 1em</code> means that a <em>q</em> with a <em>l</em> under are going to touch each other.</p>
+
+<h3>What does <code>font-weight: 400</code> means?</h3>
+
+<p data-height="299" data-theme-id="2183" data-slug-hash="AfkKv" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/AfkKv/'>What does `font-weight: 400` means ?</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+
+<p>Hey, Helvetica has <em>three weights</em> ! One for titles, one for text and one for emphasis, which means I could make an entire website with it. Maybe it overused though&hellip;</p>
+
+<p>On page 51, Santa Maria tells us he likes <em>Chaparral</em>. <a href="https://typekit.com/fonts/chaparral-pro">Lets look at it !</a>. Woaow, four weights ! 300, 400, 600 and 700. Plus, I really like its feeling&hellip;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress/Github Pages : Create a New Blog Post]]></title>

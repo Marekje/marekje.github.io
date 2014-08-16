@@ -9,8 +9,7 @@
   <meta name="author" content="Marekje">
 
   
-  <meta name="description" content="Open your terminal : cd Sites/marekje.github.io //use tabs to go faster
-rvm install ruby-2.1.1 &ndash;> because my computer always seems to go back &hellip;">
+  <meta name="description" content="Jason Santa Maria wrote a book called On Web Typography. I&rsquo;m reading it and adding here the stuff I want to remember. The CSS em “The em is the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +66,83 @@ rvm install ruby-2.1.1 &ndash;> because my computer always seems to go back &hel
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/08/16/on-web-typography-excerpts/">On Web Typography : Excerpts</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-16T11:19:00+02:00" pubdate data-updated="true">Aug 16<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Jason Santa Maria wrote a book called <a href="http://www.abookapart.com/products/on-web-typography"><em>On Web Typography</em></a>. I&rsquo;m reading it and adding here the stuff I want to remember.</p>
+
+<h3>The CSS <em>em</em></h3>
+
+<blockquote><p>“The em is the available height of each character’s canvas” (page 28)</p></blockquote>
+
+<p>Okay, how does <code>line-height: 1em</code> looks like then ?</p>
+
+<div data-height="268" data-theme-id="2183" data-slug-hash="ltEcJ" data-default-tab="result" class='codepen'><pre><code>body {
+  background-color: #eee;
+}
+p {
+  font-family: Verdana, sans-serif;
+  font-size: 3rem; //set the &#39;em&#39; default
+  max-width: 10em; //I make sure I have at least two lines
+  line-height: 1em;
+}
+span {
+  background-color: rgba(0, 0, 0, 0.3);
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}</code></pre>
+<p>See the Pen <a href='http://codepen.io/Marekje/pen/ltEcJ/'>What is a 1em line-height ?</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+
+<p>So, <code>line-height: 1em</code> means that a <em>q</em> with a <em>l</em> under are going to touch each other.</p>
+
+<h3>What does <code>font-weight: 400</code> means?</h3>
+
+<p data-height="299" data-theme-id="2183" data-slug-hash="AfkKv" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/AfkKv/'>What does `font-weight: 400` means ?</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+
+<p>Hey, Helvetica has <em>three weights</em> ! One for titles, one for text and one for emphasis, which means I could make an entire website with it. Maybe it overused though&hellip;</p>
+
+<p>On page 51, Santa Maria tells us he likes <em>Chaparral</em>. <a href="https://typekit.com/fonts/chaparral-pro">Lets look at it !</a>. Woaow, four weights ! 300, 400, 600 and 700. Plus, I really like its feeling&hellip;</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -527,6 +603,10 @@ For easy comparing, Scrum recommends <a href="https://en.wikipedia.org/wiki/Burn
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/08/16/on-web-typography-excerpts/">On Web Typography : Excerpts</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/08/15/octopress-create-a-new-blog-post/">Octopress/Github Pages : Create a New Blog Post</a>
       </li>
     
@@ -540,10 +620,6 @@ For easy comparing, Scrum recommends <a href="https://en.wikipedia.org/wiki/Burn
     
       <li class="post">
         <a href="/blog/2014/07/24/scrum-workflows-development-and-testing/">Scrum Workflows : Development and Testing</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/07/23/most-used-hanzis/">Efficient Language Learning</a>
       </li>
     
   </ul>
