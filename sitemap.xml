@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://Marekje.github.io/blog/2014/08/17/a-smooth-buttons-system-in-css/</loc>
+    <lastmod>2014-08-17T16:00:36+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://Marekje.github.io/blog/2014/08/16/on-web-typography-excerpts/</loc>
     <lastmod>2014-08-16T11:19:00+02:00</lastmod>
     <priority>0.8</priority>
@@ -53,21 +59,21 @@
   
   <url>
     <loc>http://Marekje.github.io/pages/contact.html</loc>
-    <lastmod>2014-08-16T13:49:40+02:00</lastmod>
+    <lastmod>2014-08-17T16:15:06+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://Marekje.github.io/blog/archives/</loc>
-    <lastmod>2014-08-16T13:49:40+02:00</lastmod>
+    <lastmod>2014-08-17T16:15:06+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://Marekje.github.io/</loc>
-    <lastmod>2014-08-16T13:49:40+02:00</lastmod>
+    <lastmod>2014-08-17T16:15:06+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

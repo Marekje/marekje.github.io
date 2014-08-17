@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Buttons, | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/buttons/atom.xml" rel="self"/>
+  <link href="http://Marekje.github.io/"/>
+  <updated>2014-08-17T16:15:06+02:00</updated>
+  <id>http://Marekje.github.io/</id>
+  <author>
+    <name><![CDATA[Marekje]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Smooth Buttons System in CSS]]></title>
+    <link href="http://Marekje.github.io/blog/2014/08/17/a-smooth-buttons-system-in-css/"/>
+    <updated>2014-08-17T16:00:36+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/08/17/a-smooth-buttons-system-in-css</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve made a system of buttons for an application I&rsquo;m creating right now. I don&rsquo;t dislike flat design, but it always bugged me that buttons would be so&hellip; bland.</p>
+
+<p>So I&rsquo;ve made a simple buttons system easy to improve so I can add what I need later on:</p>
+
+<p data-height="268" data-theme-id="2183" data-slug-hash="lIwzn" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/lIwzn/'>Smooth buttons system</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+
+<p>The github Gist : <a href="https://gist.github.com/Marekje/58e8c9103af720e71905">Gist</a></p>
+]]></content>
+  </entry>
+  
+</feed>
