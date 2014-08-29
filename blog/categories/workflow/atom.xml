@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Workflow, | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/workflow/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-29T08:45:15+02:00</updated>
+  <updated>2014-08-29T08:50:33+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -18,17 +18,24 @@
     <link href="http://Marekje.github.io/blog/2014/08/29/start-of-a-design-workflow/"/>
     <updated>2014-08-29T08:41:23+02:00</updated>
     <id>http://Marekje.github.io/blog/2014/08/29/start-of-a-design-workflow</id>
-    <content type="html"><![CDATA[<h4>Talk</h4>
+    <content type="html"><![CDATA[<h4>Plan</h4>
 
-<p>When you get a new assignement for a design work,  talk about it with its <em>Product Owner</em>.</p>
+<p>When you get a new assignement for a design work,  talk about it with its <em>Product Owner</em>. He will always have ideas and insights, data, people you should talk to&hellip;</p>
 
-<p>He will always have ideas and insights, data, people you should talk to&hellip;</p>
-
-<h4>Write</h4>
+<h4>Do</h4>
 
 <p>Then, write down your first ideas, sketches, make a basic report with the &ldquo;State of the art&rdquo;, existing functionalities and dreamed ones&hellip; It will help you define what your design needs to work.</p>
 
-<p>At this point you can iterating, with sketches, text or whatever low-fidelity medium you like :&ndash;)</p>
+<h4>Check</h4>
+
+<p>Do you have all your design functionalities ? Do you know who&rsquo;s the final user ? Is there a hidden product owner somewhere you haven&rsquo;t talked to (You know, your boss&rsquo;s boss) ?</p>
+
+<h4>Act</h4>
+
+<p>At this point, define if you can start the actual designing work or if you need more informations.</p>
+
+<p>For more generic informations :
+&ndash;> (PDCA : The Deming wheel) [<a href="http://en.wikipedia.org/wiki/PDCA">http://en.wikipedia.org/wiki/PDCA</a>]</p>
 ]]></content>
   </entry>
   
