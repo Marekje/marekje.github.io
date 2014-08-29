@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Design, | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/design/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-17T16:15:06+02:00</updated>
+  <updated>2014-08-29T08:45:15+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Start of a Design Workflow]]></title>
+    <link href="http://Marekje.github.io/blog/2014/08/29/start-of-a-design-workflow/"/>
+    <updated>2014-08-29T08:41:23+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/08/29/start-of-a-design-workflow</id>
+    <content type="html"><![CDATA[<h4>Talk</h4>
+
+<p>When you get a new assignement for a design work,  talk about it with its <em>Product Owner</em>.</p>
+
+<p>He will always have ideas and insights, data, people you should talk to&hellip;</p>
+
+<h4>Write</h4>
+
+<p>Then, write down your first ideas, sketches, make a basic report with the &ldquo;State of the art&rdquo;, existing functionalities and dreamed ones&hellip; It will help you define what your design needs to work.</p>
+
+<p>At this point you can iterating, with sketches, text or whatever low-fidelity medium you like :&ndash;)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Design Pendant Un Sprint]]></title>

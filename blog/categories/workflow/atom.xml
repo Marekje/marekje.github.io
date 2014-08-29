@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Workflow | CSS &amp; Projects]]></title>
+  <title><![CDATA[Category: Workflow, | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/workflow/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-17T16:15:06+02:00</updated>
+  <updated>2014-08-29T08:45:15+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -14,58 +14,21 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Design Pendant Un Sprint]]></title>
-    <link href="http://Marekje.github.io/blog/2014/08/05/design-during-a-sprint/"/>
-    <updated>2014-08-05T13:26:07+02:00</updated>
-    <id>http://Marekje.github.io/blog/2014/08/05/design-during-a-sprint</id>
-    <content type="html"><![CDATA[<p>Je me demandais comment gérer le design manquant durant un Sprint. les modifications dues au développement, aux nouvelles idées, aux problèmes techniques.. font que le design d'un projet change au fur et à mesure du temps.
-J'ai donc eu besoin de trouver et développer une méthode pour intégrer le design dans un sprint normal, et le faire évoluer au même rythme que le développement, par itérations successives.
-Et je l'écris ici pour ne pas l'oublier !</p>
+    <title type="html"><![CDATA[Start of a Design Workflow]]></title>
+    <link href="http://Marekje.github.io/blog/2014/08/29/start-of-a-design-workflow/"/>
+    <updated>2014-08-29T08:41:23+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/08/29/start-of-a-design-workflow</id>
+    <content type="html"><![CDATA[<h4>Talk</h4>
 
-<h2>2 étapes</h2>
+<p>When you get a new assignement for a design work,  talk about it with its <em>Product Owner</em>.</p>
 
-<p><strong>Avant le début du développement</strong>, il faut :</p>
+<p>He will always have ideas and insights, data, people you should talk to&hellip;</p>
 
-<ul>
-<li>Une “Charte graphique”, document qui contient les couleurs et leur usage (background, texte, titres, alertes, légendes…), les polices de paragraphe, titre, lien… , les textures, le rendu attendu en fonction des endroits (menus, articles, widgets…).</li>
-</ul>
+<h4>Write</h4>
 
+<p>Then, write down your first ideas, sketches, make a basic report with the &ldquo;State of the art&rdquo;, existing functionalities and dreamed ones&hellip; It will help you define what your design needs to work.</p>
 
-<p>Chaque exemple comprend un graphisme, une explication de l’objectif du graphisme et des endroits auquels il est attendu , ansi que le CSS nécessaire (grâce à une mixin SCSS/LESS si possible)</p>
-
-<ul>
-<li>Une “Charte des Interactions”, qui décrit les principales possibilités d’action des utilisateurs lors de l’utilisation de ce projet, étape par étape.</li>
-</ul>
-
-
-<p>Chaque exemple comprend un workflow de l’interaction et ses transitions, une explication du résultat attendu par l’utilisateur et le code basique nécessaire pour faire fonctionner l’interaction si possible.</p>
-
-<ul>
-<li>Une “Charte Technique” décrivant les langages, librairies et technologies front-end &amp; back-end utilisées.</li>
-</ul>
-
-
-<p><strong>Pendant le sprint</strong>, on commence par un Sprint Planning Meeting qui décrit les tâches à réaliser par l'équipe. C'est durant cette phase que tout se joue.</p>
-
-<ul>
-<li><p>Les tâches qui ont besoin d'un redesign ou d'une description plus complête vont être assignées au designer, qui va créer un document explicatif rapide pour chacune, l'ajouter sur la tâche, puis les assignera aux développeurs par la suite.</p></li>
-<li><p>Le designer va regarder les autres tâches, et y noter les documents de design utiles pour la réalisation de la tâche.</p></li>
-</ul>
-
-
-<p>De cette manière, un développeur pourra se référer uniquement au descriptif de la tâche pour réaliser son travail !</p>
-
-<h2>Qu'est-ce que ça donne concrètement ?</h2>
-
-<p>J'utilise Trello, qui permet de faire ça facilement :</p>
-
-<p><em>La Card assignée au Designer :</em></p>
-
-<p><img src="../images/designercard_before.jpg" alt="une Card Trello avant que le designer n'y ajoute sa patte" /></p>
-
-<p><em>La Card une fois le designer passé : (notez le changement de [design] à [dev])</em></p>
-
-<p><img src="../images/designercard_after.jpg" alt="une Card Trello après le passage du designer" /></p>
+<p>At this point you can iterating, with sketches, text or whatever low-fidelity medium you like :&ndash;)</p>
 ]]></content>
   </entry>
   
