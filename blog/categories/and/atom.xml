@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: & | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/and/atom.xml" rel="self"/>
+  <link href="http://Marekje.github.io/"/>
+  <updated>2014-08-31T14:31:01+02:00</updated>
+  <id>http://Marekje.github.io/</id>
+  <author>
+    <name><![CDATA[Marekje]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fibonacci, SCSS and Typography]]></title>
+    <link href="http://Marekje.github.io/blog/2014/08/31/fibonacci/"/>
+    <updated>2014-08-31T14:01:47+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/08/31/fibonacci</id>
+    <content type="html"><![CDATA[<p>I just wrote <a href="http://codepen.io/Marekje/blog/a-typographic-grid-with-fibonacci-and-sass">an article on codepen</a>, talking about typographic scale and using the Fibonacci sequence as a SASS function to define this scale.</p>
+]]></content>
+  </entry>
+  
+</feed>
