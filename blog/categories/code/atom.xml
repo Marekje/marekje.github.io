@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Code | CSS &amp; Projects]]></title>
+  <title><![CDATA[Category: Code, | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-08-31T14:31:01+02:00</updated>
+  <updated>2014-09-06T15:55:00+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -14,51 +14,85 @@
 
   
   <entry>
-    <title type="html"><![CDATA[How I Made This Website]]></title>
-    <link href="http://Marekje.github.io/blog/2014/07/18/how-i-made-this-website/"/>
-    <updated>2014-07-18T08:24:15+02:00</updated>
-    <id>http://Marekje.github.io/blog/2014/07/18/how-i-made-this-website</id>
-    <content type="html"><![CDATA[<p>It took me a while to be able to make this blog happen.</p>
+    <title type="html"><![CDATA[CSS Without Classes : The Attributes Module]]></title>
+    <link href="http://Marekje.github.io/blog/2014/09/06/css-without-classes-attributes-module/"/>
+    <updated>2014-09-06T15:36:28+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/09/06/css-without-classes-attributes-module</id>
+    <content type="html"><![CDATA[<p>Yesterday, Glenn Maddern introduced a new concept for styling HTML websites : the <a href="http://glenmaddern.com/articles/introducing-am-css">Attributes Modules</a>. His explanation being very thorough and well-written, you should read it first.</p>
 
-<p>First, I did it with wordpress, and it worked like a charm, but wordpress&rsquo;s clumsy and huge and hardly modifiable. So I wanted to change.</p>
+<p>I used it today for a small pen about language learning card :</p>
 
-<p>Through <a href="http://oozled.com/resources/cms">oozled.com</a>, I found jekyll, whose <em>&ldquo;static website&rdquo;</em> appealed to me because it meant something simple without a database. I&rsquo;m no developer&hellip;</p>
+<p>The HTML uses attributes (starting with <code>am-attribute</code> so I know it&rsquo;s part of this module, it&rsquo;s very much like Angular&rsquo;s <code>ng-stuff</code>) instead of classes.</p>
 
-<p>But I couldn&rsquo;t install Jekyll, thanks to a missing gem and some other stuff. But Octopress, a blog engine based on Jekyll, worked! 10 minutes and I was all set up.</p>
+<h3>The code :</h3>
 
-<h2>How I did it:</h2>
+<p>Here I have three modules :
+&ndash; <code>am-Card</code> to style Cards in general
+&ndash; <code>am-Lang</code> to make sure the user can recognize pinyin (latin-characters chinese) at a glance for example.
+&ndash; <code>am-Question</code>, which will hide and show blocks of text, so the user has to guess them.</p>
 
-<p>First, create your <code>username.github.io</code> repository in github.
-&ndash; Second, follow that :
-<a href="http://octopress.org/docs/setup/">octopress: setup</a></p>
+<p>The HTML template for my Card :
+<code>html
+&lt;article am-Card&gt;
+  &lt;p am-Lang="chinese"&gt;我&lt;em am-Question="hidden"&gt;刻&lt;/em&gt;一个铁剑。&lt;/p&gt;
+  &lt;p am-Lang="pinyin"&gt;wǒ &lt;em am-Question="hidden"&gt;kè&lt;/em&gt; yī ge tiě jiàn.&lt;/p&gt;
+  &lt;p am-Lang="english"&gt;I &lt;em am-Question="none"&gt;sculpt&lt;/em&gt; one iron sword&lt;/p&gt;
+&lt;/article&gt;
+</code></p>
+
+<p>The CSS I use :
+``` css
+/<em> CARD module </em>/
+[am-Card] {
+  /<em> Basic CSS stuff about Cards</em>/
+}</p>
+
+<p>/<em> QUESTION module </em>/
+[am-Question] { /* stuff about Questions that won&rsquo;t change if I apply</p>
+
+<pre><code>               a modifier */
+</code></pre>
+
+<p>  font-style: inherit;
+  border-radius: 0.1em;
+}
+[am-Question~=&ldquo;shown&rdquo;] { /* Questions with &ldquo;shown&rdquo; state will have a</p>
+
+<pre><code>                        sliiight background color to know it's
+                        been revealed */
+</code></pre>
+
+<p>  background-color: rgba($color-hidden, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+[am-Question~=&ldquo;hidden&rdquo;] { /* Questions with &ldquo;hidden&rdquo; state will have</p>
+
+<pre><code>                         the same background-color and color to hide
+                         them ! I'm quoite proud of this trick :P */
+</code></pre>
+
+<p>  color: $color-hidden;
+  background-color: $color-hidden;
+}
+```</p>
+
+<h3>Pro&rsquo;s and Con&rsquo;s</h3>
 
 <ul>
-<li><p>Third, follow that :
-<a href="http://octopress.org/docs/deploying/github/">octopress: deploying to github pages</a></p></li>
-<li><p>Fourth :
-<a href="http://octopress.org/docs/configuring/">octopress: configuration</a>(almost nothing to do here!)</p></li>
-<li><p>and last :
-<a href="http://octopress.org/docs/blogging/">octopress: blogging basics</a>, which will help you make a blog post.</p></li>
+<li>You never have to worry about two <code>.hidden</code>classes with different behaviors.</li>
+<li>You won&rsquo;t have huge <code>Card__Question--hidden</code> classes like BEM does, because each module has its own attribute (avoids Global Namespace !).</li>
+<li>Since all your attributes have meaning, I think we can use the same attributes for CSS and JS. The attribute only shows an information, CSS and JS can do whatever they want afterwards.</li>
+<li>But it&rsquo;s not very pretty to have <code>[am-Question~="shown"]</code> everywhere in your css&hellip;</li>
 </ul>
 
 
-<p>And then, to <code>push</code> a new blog post, or any changes I guess :</p>
+<h3>The full Pen :</h3>
 
-<ul>
-<li><code>rake generate</code></li>
-<li><code>rake deploy</code></li>
-</ul>
+<p data-height="448" data-theme-id="2183" data-slug-hash="xwoFz" data-default-tab="result" data-user="Marekje" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/xwoFz/'>Hide some text</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 
-<h2>Modifying/Customizing your blog:</h2>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
 
-<ul>
-<li><a href="http://octopress.org/docs/theme/template/">Theming &amp; Customization</a></li>
-<li><a href="http://octopress.org/docs/theme/styles/">CSS Styles</a></li>
-</ul>
-
-
-<p>I think that&rsquo;s all I/you need :&ndash;)</p>
 ]]></content>
   </entry>
   

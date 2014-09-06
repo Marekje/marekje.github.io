@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>CSS Without Classes : The Attributes Module - CSS &amp; Projects</title>
+  <meta name="author" content="Marekje">
+
+  
+  <meta name="description" content="Yesterday, Glenn Maddern introduced a new concept for styling HTML websites : the Attributes Modules. His explanation being very thorough and well- &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://Marekje.github.io/blog/2014/09/06/css-without-classes-attributes-module">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="CSS &amp; Projects" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">CSS &amp; Projects</a></h1>
+  
+    <h2>Projects, Scrum, Trello & Code</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:Marekje.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <!--li><a href="/pages/contact.html">Me</a></li-->
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">CSS Without Classes : The Attributes Module</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-06T15:36:28+02:00" pubdate data-updated="true">Sep 6<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Yesterday, Glenn Maddern introduced a new concept for styling HTML websites : the <a href="http://glenmaddern.com/articles/introducing-am-css">Attributes Modules</a>. His explanation being very thorough and well-written, you should read it first.</p>
+
+<p>I used it today for a small pen about language learning card :</p>
+
+<p>The HTML uses attributes (starting with <code>am-attribute</code> so I know it&rsquo;s part of this module, it&rsquo;s very much like Angular&rsquo;s <code>ng-stuff</code>) instead of classes.</p>
+
+<h3>The code :</h3>
+
+<p>Here I have three modules :
+&ndash; <code>am-Card</code> to style Cards in general
+&ndash; <code>am-Lang</code> to make sure the user can recognize pinyin (latin-characters chinese) at a glance for example.
+&ndash; <code>am-Question</code>, which will hide and show blocks of text, so the user has to guess them.</p>
+
+<p>The HTML template for my Card :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;article</span> <span class="na">am-Card</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;p</span> <span class="na">am-Lang=</span><span class="s">&quot;chinese&quot;</span><span class="nt">&gt;</span>我<span class="nt">&lt;em</span> <span class="na">am-Question=</span><span class="s">&quot;hidden&quot;</span><span class="nt">&gt;</span>刻<span class="nt">&lt;/em&gt;</span>一个铁剑。<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;p</span> <span class="na">am-Lang=</span><span class="s">&quot;pinyin&quot;</span><span class="nt">&gt;</span>wǒ <span class="nt">&lt;em</span> <span class="na">am-Question=</span><span class="s">&quot;hidden&quot;</span><span class="nt">&gt;</span>kè<span class="nt">&lt;/em&gt;</span> yī ge tiě jiàn.<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;p</span> <span class="na">am-Lang=</span><span class="s">&quot;english&quot;</span><span class="nt">&gt;</span>I <span class="nt">&lt;em</span> <span class="na">am-Question=</span><span class="s">&quot;none&quot;</span><span class="nt">&gt;</span>sculpt<span class="nt">&lt;/em&gt;</span> one iron sword<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'><span class="nt">&lt;/article&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The CSS I use :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="c">/* CARD module */</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Card</span><span class="o">]</span> <span class="p">{</span>
+</span><span class='line'>  <span class="c">/* Basic CSS stuff about Cards*/</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">/* QUESTION module */</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">]</span> <span class="p">{</span> <span class="c">/* stuff about Questions that won&#39;t change if I apply</span>
+</span><span class='line'><span class="c">                   a modifier */</span>
+</span><span class='line'>  <span class="k">font-style</span><span class="o">:</span> <span class="k">inherit</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">0.1em</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">~=</span><span class="s2">&quot;shown&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="c">/* Questions with &quot;shown&quot; state will have a</span>
+</span><span class='line'><span class="c">                            sliiight background color to know it&#39;s</span>
+</span><span class='line'><span class="c">                            been revealed */</span>
+</span><span class='line'>  <span class="k">background-color</span><span class="o">:</span> <span class="n">rgba</span><span class="p">(</span><span class="err">$</span><span class="k">color</span><span class="o">-</span><span class="k">hidden</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">3</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">transition</span><span class="o">:</span> <span class="n">all</span> <span class="m">0.1s</span> <span class="n">ease</span><span class="o">-</span><span class="n">in</span><span class="o">-</span><span class="n">out</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">~=</span><span class="s2">&quot;hidden&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="c">/* Questions with &quot;hidden&quot; state will have</span>
+</span><span class='line'><span class="c">                             the same background-color and color to hide</span>
+</span><span class='line'><span class="c">                             them ! I&#39;m quoite proud of this trick :P */</span>
+</span><span class='line'>  <span class="k">color</span><span class="o">:</span> <span class="err">$</span><span class="k">color</span><span class="o">-</span><span class="k">hidden</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">background-color</span><span class="o">:</span> <span class="err">$</span><span class="k">color</span><span class="o">-</span><span class="k">hidden</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Pro&rsquo;s and Con&rsquo;s</h3>
+
+<ul>
+<li>You never have to worry about two <code>.hidden</code>classes with different behaviors.</li>
+<li>You won&rsquo;t have huge <code>Card__Question--hidden</code> classes like BEM does, because each module has its own attribute (avoids Global Namespace !).</li>
+<li>Since all your attributes have meaning, I think we can use the same attributes for CSS and JS. The attribute only shows an information, CSS and JS can do whatever they want afterwards.</li>
+<li>But it&rsquo;s not very pretty to have <code>[am-Question~="shown"]</code> everywhere in your css&hellip;</li>
+</ul>
+
+
+<h3>The full Pen :</h3>
+
+<p data-height="448" data-theme-id="2183" data-slug-hash="xwoFz" data-default-tab="result" data-user="Marekje" class='codepen'>See the Pen <a href='http://codepen.io/Marekje/pen/xwoFz/'>Hide some text</a> by Pierre (<a href='http://codepen.io/Marekje'>@Marekje</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Marekje</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-06T15:36:28+02:00" pubdate data-updated="true">Sep 6<sup>th</sup>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/attributes/'>attributes</a>, <a class='category' href='/blog/categories/code/'>code,</a>, <a class='category' href='/blog/categories/css/'>css,</a>, <a class='category' href='/blog/categories/module/'>module</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://Marekje.github.io/blog/2014/09/06/css-without-classes-attributes-module/" data-via="" data-counturl="http://Marekje.github.io/blog/2014/09/06/css-without-classes-attributes-module/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/08/31/fibonacci/" title="Previous Post: Fibonacci, SCSS and Typography">&laquo; Fibonacci, SCSS and Typography</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/09/06/css-without-classes-attributes-module/">CSS Without Classes : The Attributes Module</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/31/fibonacci/">Fibonacci, SCSS and Typography</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/29/start-of-a-design-workflow/">Start of a Design Workflow</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/17/a-smooth-buttons-system-in-css/">A Smooth Buttons System in CSS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/16/on-web-typography-excerpts/">On Web Typography : Excerpts</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Marekje -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
