@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Css, | CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-09-06T15:55:00+02:00</updated>
+  <updated>2014-09-06T15:58:49+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -26,10 +26,14 @@
 
 <h3>The code :</h3>
 
-<p>Here I have three modules :
-&ndash; <code>am-Card</code> to style Cards in general
-&ndash; <code>am-Lang</code> to make sure the user can recognize pinyin (latin-characters chinese) at a glance for example.
-&ndash; <code>am-Question</code>, which will hide and show blocks of text, so the user has to guess them.</p>
+<p>Here I have three modules :</p>
+
+<ul>
+<li><strong>Card :</strong> <code>am-Card</code> to style Cards in general</li>
+<li><strong>Lang :</strong> <code>am-Lang</code> to make sure the user can recognize pinyin (latin-characters chinese) at a glance for example.</li>
+<li><strong>Question :</strong> <code>am-Question</code>, which will hide and show blocks of text, so the user has to guess them.</li>
+</ul>
+
 
 <p>The HTML template for my Card :
 <code>html
@@ -48,30 +52,21 @@
 }</p>
 
 <p>/<em> QUESTION module </em>/
-[am-Question] { /* stuff about Questions that won&rsquo;t change if I apply</p>
-
-<pre><code>               a modifier */
-</code></pre>
-
-<p>  font-style: inherit;
+/<em> stuff about Questions that won&rsquo;t change if I apply a modifier </em>/
+[am-Question] {
+  font-style: inherit;
   border-radius: 0.1em;
 }
-[am-Question~=&ldquo;shown&rdquo;] { /* Questions with &ldquo;shown&rdquo; state will have a</p>
-
-<pre><code>                        sliiight background color to know it's
-                        been revealed */
-</code></pre>
-
-<p>  background-color: rgba($color-hidden, 0.3);
+/<em> Questions with &ldquo;shown&rdquo; state will have a sliiight background color
+   to know it&rsquo;s been revealed </em>/
+[am-Question~=&ldquo;shown&rdquo;] {
+  background-color: rgba($color-hidden, 0.3);
   transition: all 0.1s ease-in-out;
 }
-[am-Question~=&ldquo;hidden&rdquo;] { /* Questions with &ldquo;hidden&rdquo; state will have</p>
-
-<pre><code>                         the same background-color and color to hide
-                         them ! I'm quoite proud of this trick :P */
-</code></pre>
-
-<p>  color: $color-hidden;
+/<em> Questions with &ldquo;hidden&rdquo; state will have the same background-color
+   and color to hide them ! I&rsquo;m quoite proud of this trick :P </em>/
+[am-Question~=&ldquo;hidden&rdquo;] {
+  color: $color-hidden;
   background-color: $color-hidden;
 }
 ```</p>

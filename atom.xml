@@ -4,7 +4,7 @@
   <title><![CDATA[CSS &amp; Projects]]></title>
   <link href="http://Marekje.github.io/atom.xml" rel="self"/>
   <link href="http://Marekje.github.io/"/>
-  <updated>2014-09-06T15:55:00+02:00</updated>
+  <updated>2014-09-06T15:58:49+02:00</updated>
   <id>http://Marekje.github.io/</id>
   <author>
     <name><![CDATA[Marekje]]></name>
@@ -26,10 +26,14 @@
 
 <h3>The code :</h3>
 
-<p>Here I have three modules :
-&ndash; <code>am-Card</code> to style Cards in general
-&ndash; <code>am-Lang</code> to make sure the user can recognize pinyin (latin-characters chinese) at a glance for example.
-&ndash; <code>am-Question</code>, which will hide and show blocks of text, so the user has to guess them.</p>
+<p>Here I have three modules :</p>
+
+<ul>
+<li><strong>Card :</strong> <code>am-Card</code> to style Cards in general</li>
+<li><strong>Lang :</strong> <code>am-Lang</code> to make sure the user can recognize pinyin (latin-characters chinese) at a glance for example.</li>
+<li><strong>Question :</strong> <code>am-Question</code>, which will hide and show blocks of text, so the user has to guess them.</li>
+</ul>
+
 
 <p>The HTML template for my Card :</p>
 
@@ -77,20 +81,20 @@
 </span><span class='line'><span class="p">}</span>
 </span><span class='line'>
 </span><span class='line'><span class="c">/* QUESTION module */</span>
-</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">]</span> <span class="p">{</span> <span class="c">/* stuff about Questions that won&#39;t change if I apply</span>
-</span><span class='line'><span class="c">                   a modifier */</span>
+</span><span class='line'><span class="c">/* stuff about Questions that won&#39;t change if I apply a modifier */</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">]</span> <span class="p">{</span>
 </span><span class='line'>  <span class="k">font-style</span><span class="o">:</span> <span class="k">inherit</span><span class="p">;</span>
 </span><span class='line'>  <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">0.1em</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">~=</span><span class="s2">&quot;shown&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="c">/* Questions with &quot;shown&quot; state will have a</span>
-</span><span class='line'><span class="c">                            sliiight background color to know it&#39;s</span>
-</span><span class='line'><span class="c">                            been revealed */</span>
+</span><span class='line'><span class="c">/* Questions with &quot;shown&quot; state will have a sliiight background color</span>
+</span><span class='line'><span class="c">   to know it&#39;s been revealed */</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">~=</span><span class="s2">&quot;shown&quot;</span><span class="o">]</span> <span class="p">{</span>
 </span><span class='line'>  <span class="k">background-color</span><span class="o">:</span> <span class="n">rgba</span><span class="p">(</span><span class="err">$</span><span class="k">color</span><span class="o">-</span><span class="k">hidden</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">3</span><span class="p">);</span>
 </span><span class='line'>  <span class="n">transition</span><span class="o">:</span> <span class="n">all</span> <span class="m">0.1s</span> <span class="n">ease</span><span class="o">-</span><span class="n">in</span><span class="o">-</span><span class="n">out</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">~=</span><span class="s2">&quot;hidden&quot;</span><span class="o">]</span> <span class="p">{</span> <span class="c">/* Questions with &quot;hidden&quot; state will have</span>
-</span><span class='line'><span class="c">                             the same background-color and color to hide</span>
-</span><span class='line'><span class="c">                             them ! I&#39;m quoite proud of this trick :P */</span>
+</span><span class='line'><span class="c">/* Questions with &quot;hidden&quot; state will have the same background-color</span>
+</span><span class='line'><span class="c">   and color to hide them ! I&#39;m quoite proud of this trick :P */</span>
+</span><span class='line'><span class="o">[</span><span class="nt">am-Question</span><span class="o">~=</span><span class="s2">&quot;hidden&quot;</span><span class="o">]</span> <span class="p">{</span>
 </span><span class='line'>  <span class="k">color</span><span class="o">:</span> <span class="err">$</span><span class="k">color</span><span class="o">-</span><span class="k">hidden</span><span class="p">;</span>
 </span><span class='line'>  <span class="k">background-color</span><span class="o">:</span> <span class="err">$</span><span class="k">color</span><span class="o">-</span><span class="k">hidden</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
