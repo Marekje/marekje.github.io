@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mike | CSS &amp; Projects]]></title>
+  <link href="http://Marekje.github.io/blog/categories/mike/atom.xml" rel="self"/>
+  <link href="http://Marekje.github.io/"/>
+  <updated>2014-09-24T09:10:38+02:00</updated>
+  <id>http://Marekje.github.io/</id>
+  <author>
+    <name><![CDATA[Marekje]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quote From Mike Monteiro]]></title>
+    <link href="http://Marekje.github.io/blog/2014/09/24/quote-from-mike-monteiro/"/>
+    <updated>2014-09-24T09:07:54+02:00</updated>
+    <id>http://Marekje.github.io/blog/2014/09/24/quote-from-mike-monteiro</id>
+    <content type="html"><![CDATA[<blockquote><p>A good designer finds an elegant way to put everything you need on a page. A great designer convinces you half that shit is unnecessary. — Mike Monteiro</p></blockquote>
+
+<p>I just needed to write this awesome quote somwhere so I can see it again from time to time. Also, you may like it too :&ndash;)</p>
+
+<p>I found the quote in <a href="http://blog.heyimcat.com/its-called-ship-not-shit/">heyimcat</a>&rsquo;s blog, on a article called &ldquo;It&rsquo;s called <em>ship</em>, not <em>Shit</em>. Nice title!</p>
+]]></content>
+  </entry>
+  
+</feed>
